@@ -18,7 +18,7 @@ body {
 
 /* Navbar */
 .navbar {
-    background: orange;
+    background: black;
     color: white;
     padding: 1rem 0;
     position: sticky;
@@ -56,7 +56,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: black;
     color: white;
     padding: 100px 0;
     text-align: center;
