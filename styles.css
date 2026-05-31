@@ -231,3 +231,29 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+.lightning-text {
+    font-size: 8rem;
+    font-weight: 900;
+    letter-spacing: 8px;
+    color: white;
+    text-transform: uppercase;
+
+    text-shadow:
+        0 0 10px #00ccff,
+        0 0 20px #00ccff,
+        0 0 40px #00ccff,
+        0 0 80px #00ccff,
+        0 0 120px #00ccff;
+
+    animation: lightningFlicker 0.15s infinite alternate;
+}
+
+@keyframes lightningFlicker {
+    0% {
+        opacity: 0.85;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
